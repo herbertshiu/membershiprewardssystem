@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LoyaltyHK — Membership rewards for Hong Kong shops</title>
+    <meta
+      name="description"
+      content="Membership rewards built for Hong Kong restaurants and retail. Turn walk-ins into regulars."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#">LoyaltyHK</a>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Introduction">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=2000&q=80"
+            alt=""
+            width="2000"
+            height="1333"
+          />
+        </div>
+        <div class="hero-content">
+          <p class="brand">LoyaltyHK</p>
+          <h1>Turn walk-ins into regulars</h1>
+          <p class="lede">
+            Membership rewards built for Hong Kong restaurants and retail shops.
+          </p>
+          <a class="btn btn-primary" href="#signup">Sign up</a>
+        </div>
+      </section>
+
+      <section class="benefits" aria-labelledby="benefits-heading">
+        <div class="benefits-inner">
+          <h2 id="benefits-heading">Why owners choose LoyaltyHK</h2>
+          <p class="benefits-intro">
+            Replace paper stamp cards with a simple rewards programme your staff
+            can run at the till — and your customers will actually use.
+          </p>
+          <ul class="benefit-list">
+            <li>
+              <h3>Keep customers coming back</h3>
+              <p>
+                Points, stamps, or tiered perks that feel familiar to Hong Kong
+                diners and shoppers — without the lost cards.
+              </p>
+            </li>
+            <li>
+              <h3>See what drives repeat visits</h3>
+              <p>
+                Know who returns, how often they spend, and which offers bring
+                them through the door again.
+              </p>
+            </li>
+            <li>
+              <h3>Launch in an afternoon</h3>
+              <p>
+                No IT team required. Set up your programme, share a QR code, and
+                start rewarding from day one.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="cta" id="signup" aria-labelledby="cta-heading">
+        <div class="cta-inner">
+          <h2 id="cta-heading">Ready to reward your regulars?</h2>
+          <p>
+            Join restaurants and retailers across Hong Kong building loyalty
+            that lasts beyond a single visit.
+          </p>
+          <a class="btn btn-primary" href="mailto:hello@loyaltyhk.example?subject=LoyaltyHK%20sign-up">
+            Sign up
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> LoyaltyHK · Built for Hong Kong hospitality &amp; retail</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
