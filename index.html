@@ -3,143 +3,253 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mobile.Cards | 香港餐飲零售會員獎賞系統</title>
+    <title>Mobile.Cards | 手機會員系統 · 專為餐飲／零售／服務業而設</title>
     <meta
       name="description"
-      content="Mobile.Cards 為香港餐飲及零售店家提供數碼會員卡、會員系統與店家儲值系統。"
+      content="Mobile.Cards 一站式會員系統及 APP。專屬品牌 App、電子會員卡（含儲值）、積分獎賞、電子禮券、外賣自取與預約。超過 1500 個品牌選用。"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="line-bar" aria-hidden="true"></div>
+
     <header class="header">
-      <a class="header__logo" href="https://mobile.cards/">Mobile.Cards</a>
+      <div class="container header__inner">
+        <a class="header__logo" href="https://mobile.cards/">
+          <span class="roundel" aria-hidden="true"></span>
+          Mobile.Cards
+        </a>
+        <nav class="header__nav" aria-label="主要">
+          <a href="#route">功能</a>
+          <a href="#shops">適用行業</a>
+          <a
+            class="header__cta"
+            href="https://mobile.cards/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            >預約 Demo</a
+          >
+        </nav>
+      </div>
     </header>
 
     <main>
       <section class="hero">
-        <div class="hero__media" aria-hidden="true">
-          <img
-            src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1400&q=80&auto=format&fit=crop"
-            alt=""
-            width="1400"
-            height="933"
-          />
-        </div>
-        <div class="container hero__inner">
-          <p class="hero__tag">香港餐飲 · 零售</p>
-          <h1 class="hero__title">會員獎賞計劃，從數碼會員卡開始</h1>
-          <p class="hero__subtitle">
-            Mobile.Cards 專為香港餐飲及零售品牌而設——讓顧客用手機集點、儲值、享優惠，助你提升回購與顧客忠誠度。
-          </p>
-          <a
-            class="btn btn--primary"
-            href="https://mobile.cards/#contact"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            立即登記
-          </a>
-        </div>
-      </section>
-
-      <section class="gallery" aria-label="適用店舖類型">
-        <div class="container">
-          <h2 class="gallery__title">無論哪類型店舖，我們都能協助你</h2>
-          <p class="gallery__lead">
-            由咖啡店、餐廳到零售店舖——Mobile.Cards 配合不同業務需要，助你建立會員獎賞計劃。
-          </p>
-          <div class="gallery__grid">
-            <figure class="gallery__item">
-              <img
-                src="https://images.unsplash.com/photo-1774758959178-094de5122e29?w=600&q=80&auto=format&fit=crop"
-                alt="咖啡店"
-                width="600"
-                height="400"
-                loading="lazy"
-              />
-              <figcaption>咖啡店</figcaption>
-            </figure>
-            <figure class="gallery__item">
-              <img
-                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80&auto=format&fit=crop"
-                alt="溫暖餐廳用餐場景"
-                width="600"
-                height="400"
-                loading="lazy"
-              />
-              <figcaption>餐廳</figcaption>
-            </figure>
-            <figure class="gallery__item">
-              <img
-                src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80&auto=format&fit=crop"
-                alt="溫馨零售店舖"
-                width="600"
-                height="400"
-                loading="lazy"
-              />
-              <figcaption>零售</figcaption>
-            </figure>
+        <div class="container hero__grid">
+          <div class="hero__story">
+            <p class="hero__kicker">
+              <span class="roundel roundel--sm" aria-hidden="true"></span>
+              下一站 Next station · 港島綫
+            </p>
+            <h1 class="hero__title">
+              <span class="hero__zh">回頭客</span>
+              <span class="hero__en">Repeat customers</span>
+            </h1>
+            <p class="hero__copy">
+              手機會員系統，專為餐飲／零售／服務業而設。超過 1500 個品牌選用。
+            </p>
+            <a
+              class="btn btn--primary"
+              href="https://mobile.cards/#contact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              預約 Demo
+            </a>
           </div>
+
+          <aside class="pids" aria-label="系統功能一覽">
+            <div class="pids__head">
+              <span>Departures 開出</span>
+              <span class="pids__clock" id="pids-clock">12:00</span>
+            </div>
+            <ul class="pids__list">
+              <li>
+                <span class="pids__eta pids__eta--now">Now</span>
+                <span class="pids__dest">專屬品牌 APP</span>
+              </li>
+              <li>
+                <span class="pids__eta">2 min</span>
+                <span class="pids__dest">電子會員卡（含儲值）</span>
+              </li>
+              <li>
+                <span class="pids__eta">5 min</span>
+                <span class="pids__dest">精準會員分級</span>
+              </li>
+            </ul>
+            <div class="ticker" aria-hidden="true">
+              <div class="ticker__track">
+                <span>請勿靠近車門 · Please stand back from the train doors · 請勿靠近車門 · Please stand back from the train doors ·</span>
+                <span>請勿靠近車門 · Please stand back from the train doors · 請勿靠近車門 · Please stand back from the train doors ·</span>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
 
-      <section class="benefits">
+      <section class="route" id="route">
         <div class="container">
-          <p class="benefits__eyebrow">為什麼選擇我們</p>
-          <h2 class="benefits__title">為你的店舖而設</h2>
-          <p class="benefits__intro">三個核心功能，助你輕鬆經營會員獎賞計劃。</p>
-          <ul class="benefits__list">
-            <li class="benefits__item">
-              <span class="benefits__num" aria-hidden="true">01</span>
-              <div class="benefits__copy">
-                <h3>會員系統</h3>
-                <p>管理會員資料、集點、分級與優惠券，顧客加入後即可使用數碼會員卡。</p>
+          <div class="route__intro">
+            <p class="eyebrow">行車路線 · Route</p>
+            <h2>會員功能三站</h2>
+            <p>
+              Mobile.Cards 一站式會員系統 &amp; APP。會員品牌 APP／積分獎賞／網購／外賣自取／預約。
+            </p>
+          </div>
+
+          <div class="route__rail" aria-hidden="true">
+            <div class="train">
+              <span class="train__cab"></span>
+              <span class="train__car"></span>
+              <span class="train__car"></span>
+              <span class="train__door"></span>
+            </div>
+          </div>
+
+          <ol class="route__map">
+            <li class="route__stop">
+              <span class="route__dot" aria-hidden="true"></span>
+              <div class="route__card">
+                <p class="route__num">01 · 本站 This station</p>
+                <h3>專屬品牌 APP</h3>
+                <p>
+                  打造與連鎖品牌同級的品牌 App。完整承載品牌視覺，讓您的 Logo
+                  佔據顧客手機，建立情感連結與信任感。
+                </p>
               </div>
             </li>
-            <li class="benefits__item">
-              <span class="benefits__num" aria-hidden="true">02</span>
-              <div class="benefits__copy">
-                <h3>店家儲值系統</h3>
-                <p>支援預付儲值，鎖定未來消費、改善現金流，並可配合生日禮遇與推廣活動。</p>
+            <li class="route__stop">
+              <span class="route__dot" aria-hidden="true"></span>
+              <div class="route__card">
+                <p class="route__num">02 · 下一站 Next</p>
+                <h3>電子會員卡（含儲值）</h3>
+                <p>
+                  支援手機會員卡及儲值。會員資料、消費紀錄與推廣活動集中同一個後台，線上線下即時同步。
+                </p>
               </div>
             </li>
-            <li class="benefits__item">
-              <span class="benefits__num" aria-hidden="true">03</span>
-              <div class="benefits__copy">
-                <h3>簡單易用</h3>
-                <p>無需複雜 IT 部署，咖啡店、餐廳、美容院、零售店均可快速上線。</p>
+            <li class="route__stop">
+              <span class="route__dot" aria-hidden="true"></span>
+              <div class="route__card">
+                <p class="route__num">03 · 終點 Terminus</p>
+                <h3>精準會員分級管理</h3>
+                <p>
+                  內建強大的 CRM，自動按消費為會員分級（如：金卡、銀卡）。針對
+                  VIP 提供專屬禮遇，提升顧客終身價值 (LTV) 與忠誠度。
+                </p>
               </div>
             </li>
-          </ul>
+          </ol>
         </div>
       </section>
 
-      <section class="cta">
-        <div class="container cta__inner">
-          <h2 class="cta__title">準備好建立會員獎賞計劃？</h2>
-          <p class="cta__text">前往 Mobile.Cards 官方網站，立即提交登記查詢。</p>
+      <section class="shops" id="shops" aria-label="適用行業">
+        <div class="container shops__head">
+          <p class="eyebrow">轉綫站 · Interchange</p>
+          <h2>為不同行業制定合適方案</h2>
+          <p>精準建立品牌 CRM 系統。平台已應用於餐飲、零售、美容、服務業、旅遊酒店及專業服務。</p>
+        </div>
+        <div class="shops__rails">
+          <figure class="shops__plate">
+            <img
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80&auto=format&fit=crop"
+              alt="餐飲店舖"
+              width="800"
+              height="500"
+              loading="lazy"
+            />
+            <figcaption>
+              <span>
+                <span class="shops__zh">餐飲</span>
+                <span class="shops__en">F&amp;B</span>
+              </span>
+              <span class="shops__note">同時推出時令產品及現金電子券，增加生意</span>
+            </figcaption>
+          </figure>
+          <figure class="shops__plate">
+            <img
+              src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=800&q=80&auto=format&fit=crop"
+              alt="零售店舖"
+              width="800"
+              height="500"
+              loading="lazy"
+            />
+            <figcaption>
+              <span>
+                <span class="shops__zh">零售</span>
+                <span class="shops__en">Retail</span>
+              </span>
+              <span class="shops__note">打通線上線下，創造無縫購物體驗</span>
+            </figcaption>
+          </figure>
+          <figure class="shops__plate">
+            <img
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=80&auto=format&fit=crop"
+              alt="美容護理店舖"
+              width="800"
+              height="500"
+              loading="lazy"
+            />
+            <figcaption>
+              <span>
+                <span class="shops__zh">美容業</span>
+                <span class="shops__en">Beauty</span>
+              </span>
+              <span class="shops__note">培養高消費、高回頭率的 VIP 客群</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="announce">
+        <div class="container announce__inner">
+          <p class="announce__label">請勿靠近車門 · Please stand back from the train doors</p>
+          <h2 class="announce__title">預約 Demo</h2>
+          <p class="announce__text">
+            立即開始您的數碼轉型。告訴我們您的想法，我們將盡快與您聯絡。
+          </p>
           <a
             class="btn btn--primary btn--large"
             href="https://mobile.cards/#contact"
             target="_blank"
             rel="noopener noreferrer"
           >
-            立即登記
+            聯絡我們
           </a>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <p>© 2026 Mobile.Cards · 服務香港餐飲及零售店家</p>
+      <div class="container footer__inner">
+        <p>© 2026 Mobile.Cards</p>
+        <p>
+          <a href="tel:+85254850617">(852) 5485 0617</a>
+          ·
+          <a href="mailto:info@mobilecardspro.com">info@mobilecardspro.com</a>
+        </p>
+        <p class="footer__line">Island Line</p>
       </div>
     </footer>
+    <script>
+      (function () {
+        var el = document.getElementById("pids-clock");
+        if (!el) return;
+        function tick() {
+          var d = new Date();
+          var h = String(d.getHours()).padStart(2, "0");
+          var m = String(d.getMinutes()).padStart(2, "0");
+          el.textContent = h + ":" + m;
+        }
+        tick();
+        setInterval(tick, 15000);
+      })();
+    </script>
   </body>
 </html>
