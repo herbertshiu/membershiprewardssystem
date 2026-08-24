@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mobile.Cards | 手機會員系統 · 專為餐飲／零售／服務業而設</title>
+    <title>Mobile.Cards | 協助店家留住熟客的手機會員系統</title>
     <meta
       name="description"
-      content="Mobile.Cards 一站式會員系統及 APP。專屬品牌 App、電子會員卡（含儲值）、積分獎賞、電子禮券、外賣自取與預約。超過 1500 個品牌選用。"
+      content="專為餐飲、零售、美容等行業而設。透過專屬品牌 App、數碼會員卡、積分獎賞與電子禮券，提升顧客回購。超過 1500 個品牌選用 Mobile.Cards。"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,26 +15,84 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "單店也可以使用嗎？需要專門 IT 人員嗎？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "可以。Mobile.Cards 適合單店至連鎖使用，無需自行開發或配置複雜 IT 系統。本地團隊會協助了解店舖需要並建議合適方案。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "顧客一定要下載 App 才能成為會員嗎？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "顧客可透過專屬品牌 App 或手機會員卡查閱積分、電子禮券與優惠。入會流程可按店舖營運方式設定，目標是讓顧客容易加入、店員容易操作。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "可以取代紙本印花卡或實體會員卡嗎？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "可以。數碼會員卡可整合集點、電子禮券與會籍資料，減少遺失與人手蓋印，並方便追蹤推廣成效與會員活躍度。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "積分獎賞與電子禮券如何幫助店家？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "店家可設定積分規則、限時券與任務獎勵，鼓勵回訪並提升客單價。系統亦可協助發送生日禮券或喚醒較少到店的會員。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "餐飲、零售、美容哪個行業適合？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "凡需要顧客回訪的行業均適用。餐飲適合集點與時令優惠；零售可同步線上線下積分；美容則可透過積分獎賞與 VIP 分級培養高回頭客群。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "想開始使用，下一步應該怎麼做？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "可先透過本站查詢頁留下店舖資料與需求。我們會了解您的行業與規模，並建議合適的品牌 App、積分或會員分級方案。"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <div class="line-bar" aria-hidden="true"></div>
+    <div class="line-bar" aria-hidden="true">
+      <span class="line-bar__label">港島綫 Island Line</span>
+    </div>
 
     <header class="header">
       <div class="container header__inner">
-        <a class="header__logo" href="https://mobile.cards/">
+        <a class="header__logo" href="index.html">
           <span class="roundel" aria-hidden="true"></span>
           Mobile.Cards
         </a>
+        <div class="header__line-chip" aria-hidden="true">
+          <span class="header__line-dot"></span>
+          ISL · 港島綫
+        </div>
         <nav class="header__nav" aria-label="主要">
-          <a href="#route">功能</a>
+          <a href="#route">為什麼加入</a>
           <a href="#shops">適用行業</a>
-          <a
-            class="header__cta"
-            href="https://mobile.cards/#contact"
-            target="_blank"
-            rel="noopener noreferrer"
-            >預約 Demo</a
-          >
+          <a href="blog.html">店家資訊</a>
+          <a href="about.html">關於我們</a>
+          <a class="header__cta" href="contact.html">立即查詢</a>
         </nav>
       </div>
     </header>
@@ -45,48 +103,63 @@
           <div class="hero__story">
             <p class="hero__kicker">
               <span class="roundel roundel--sm" aria-hidden="true"></span>
-              下一站 Next station · 港島綫
+              下一站 Next station · 專為店家
             </p>
-            <h1 class="hero__title">
-              <span class="hero__zh">回頭客</span>
-              <span class="hero__en">Repeat customers</span>
-            </h1>
+
+            <div class="station-board" aria-label="站名牌">
+              <div class="station-board__stripe" aria-hidden="true"></div>
+              <div class="station-board__body">
+                <p class="station-board__line">港島綫 · Island Line</p>
+                <h1 class="hero__title">
+                  <span class="hero__zh">回頭客</span>
+                  <span class="hero__en">More repeat customers</span>
+                </h1>
+              </div>
+              <div class="station-board__exit" aria-hidden="true">
+                <span>出口</span>
+                <span>Exit</span>
+              </div>
+            </div>
+
             <p class="hero__copy">
-              手機會員系統，專為餐飲／零售／服務業而設。超過 1500 個品牌選用。
+              希望顧客更常回訪？透過 Mobile.Cards 建立專屬品牌 App、數碼會員卡與積分獎賞系統——無需複雜 IT
+              部署，單店至連鎖均可使用。
             </p>
-            <a
-              class="btn btn--primary"
-              href="https://mobile.cards/#contact"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              預約 Demo
-            </a>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="contact.html">立即查詢</a>
+              <a class="btn btn--ghost" href="#route">了解功能</a>
+            </div>
+            <ul class="trust-row" aria-label="信任指標">
+              <li>超過 <strong>1500</strong> 個品牌選用</li>
+              <li>餐飲 · 零售 · 美容適用</li>
+              <li>香港本地團隊支援</li>
+            </ul>
           </div>
 
-          <aside class="pids" aria-label="系統功能一覽">
+          <aside class="pids" aria-label="店家收益一覽">
             <div class="pids__head">
               <span>Departures 開出</span>
               <span class="pids__clock" id="pids-clock">12:00</span>
             </div>
+            <p class="pids__to">往 To · 生意增長</p>
             <ul class="pids__list">
               <li>
                 <span class="pids__eta pids__eta--now">Now</span>
-                <span class="pids__dest">專屬品牌 APP</span>
+                <span class="pids__dest">留住熟客，提升回購</span>
               </li>
               <li>
                 <span class="pids__eta">2 min</span>
-                <span class="pids__dest">電子會員卡（含儲值）</span>
+                <span class="pids__dest">積分獎賞，提升回購</span>
               </li>
               <li>
                 <span class="pids__eta">5 min</span>
-                <span class="pids__dest">精準會員分級</span>
+                <span class="pids__dest">VIP 分級，推廣更精準</span>
               </li>
             </ul>
             <div class="ticker" aria-hidden="true">
               <div class="ticker__track">
-                <span>請勿靠近車門 · Please stand back from the train doors · 請勿靠近車門 · Please stand back from the train doors ·</span>
-                <span>請勿靠近車門 · Please stand back from the train doors · 請勿靠近車門 · Please stand back from the train doors ·</span>
+                <span>專為店家而設 · 專屬品牌 App · 積分獎賞 · 電子禮券 · 立即查詢 ·</span>
+                <span>專為店家而設 · 專屬品牌 App · 積分獎賞 · 電子禮券 · 立即查詢 ·</span>
               </div>
             </div>
           </aside>
@@ -96,10 +169,10 @@
       <section class="route" id="route">
         <div class="container">
           <div class="route__intro">
-            <p class="eyebrow">行車路線 · Route</p>
-            <h2>會員功能三站</h2>
+            <p class="eyebrow">行車路線 · Why join</p>
+            <h2>三個原因，值得加入</h2>
             <p>
-              Mobile.Cards 一站式會員系統 &amp; APP。會員品牌 APP／積分獎賞／網購／外賣自取／預約。
+              不只是一個 App——而是協助您留住熟客、提升客單價、簡化門市操作的會員系統。
             </p>
           </div>
 
@@ -119,8 +192,7 @@
                 <p class="route__num">01 · 本站 This station</p>
                 <h3>專屬品牌 APP</h3>
                 <p>
-                  打造與連鎖品牌同級的品牌 App。完整承載品牌視覺，讓您的 Logo
-                  佔據顧客手機，建立情感連結與信任感。
+                  將品牌 Logo 呈現於顧客手機，建立品牌印象與信任感。顧客可隨時查閱積分與優惠，提升回訪意願。
                 </p>
               </div>
             </li>
@@ -128,9 +200,9 @@
               <span class="route__dot" aria-hidden="true"></span>
               <div class="route__card">
                 <p class="route__num">02 · 下一站 Next</p>
-                <h3>電子會員卡（含儲值）</h3>
+                <h3>積分獎賞與電子禮券</h3>
                 <p>
-                  支援手機會員卡及儲值。會員資料、消費紀錄與推廣活動集中同一個後台，線上線下即時同步。
+                  自由設定積分規則、限時券與促銷活動。集點與用券整合於手機會員卡，門市操作更簡單，亦更容易鼓勵顧客回訪。
                 </p>
               </div>
             </li>
@@ -138,10 +210,9 @@
               <span class="route__dot" aria-hidden="true"></span>
               <div class="route__card">
                 <p class="route__num">03 · 終點 Terminus</p>
-                <h3>精準會員分級管理</h3>
+                <h3>精準會員分級</h3>
                 <p>
-                  內建強大的 CRM，自動按消費為會員分級（如：金卡、銀卡）。針對
-                  VIP 提供專屬禮遇，提升顧客終身價值 (LTV) 與忠誠度。
+                  自動劃分金卡／銀卡等會籍，針對 VIP 提供禮遇與推廣，將資源投放於高價值顧客。
                 </p>
               </div>
             </li>
@@ -152,8 +223,8 @@
       <section class="shops" id="shops" aria-label="適用行業">
         <div class="container shops__head">
           <p class="eyebrow">轉綫站 · Interchange</p>
-          <h2>為不同行業制定合適方案</h2>
-          <p>精準建立品牌 CRM 系統。平台已應用於餐飲、零售、美容、服務業、旅遊酒店及專業服務。</p>
+          <h2>適用於不同類型店舖</h2>
+          <p>已有眾多餐飲、零售及美容品牌採用 Mobile.Cards 經營顧客關係與回購。</p>
         </div>
         <div class="shops__rails">
           <figure class="shops__plate">
@@ -169,7 +240,7 @@
                 <span class="shops__zh">餐飲</span>
                 <span class="shops__en">F&amp;B</span>
               </span>
-              <span class="shops__note">同時推出時令產品及現金電子券，增加生意</span>
+              <span class="shops__note">時令券與現金券帶動回訪與加單</span>
             </figcaption>
           </figure>
           <figure class="shops__plate">
@@ -185,7 +256,7 @@
                 <span class="shops__zh">零售</span>
                 <span class="shops__en">Retail</span>
               </span>
-              <span class="shops__note">打通線上線下，創造無縫購物體驗</span>
+              <span class="shops__note">線上線下積分同步，提升回購</span>
             </figcaption>
           </figure>
           <figure class="shops__plate">
@@ -201,40 +272,221 @@
                 <span class="shops__zh">美容業</span>
                 <span class="shops__en">Beauty</span>
               </span>
-              <span class="shops__note">培養高消費、高回頭率的 VIP 客群</span>
+              <span class="shops__note">VIP 分級，培養高消費回頭客</span>
             </figcaption>
           </figure>
         </div>
       </section>
 
+      <section class="articles" id="articles">
+        <div class="container">
+          <div class="articles__intro">
+            <p class="eyebrow">店家資訊 · Blog</p>
+            <h2>實用文章與會員經營指南</h2>
+            <p>
+              涵蓋數碼會員卡、積分獎賞、電子禮券與 customer loyalty
+              program，協助店家建立可信、可持續的會員計劃。
+            </p>
+          </div>
+
+          <div class="articles__grid">
+            <article class="article-card">
+              <p class="article-card__tag">會員經營</p>
+              <p class="article-card__date"><time datetime="2026-08-12">2026年8月12日</time></p>
+              <h3>
+                <a href="article-digital-membership-card.html"
+                  >數碼會員卡與電子會員卡：香港店家如何取代實體印花卡？</a
+                >
+              </h3>
+              <p>
+                說明數碼會員卡、電子會員卡與 mobile
+                card 如何簡化入會與集點，並支援手機會員系統與回購追蹤。
+              </p>
+              <a class="article-card__more" href="article-digital-membership-card.html"
+                >閱讀全文</a
+              >
+            </article>
+
+            <article class="article-card">
+              <p class="article-card__tag">積分獎賞</p>
+              <p class="article-card__date"><time datetime="2026-08-05">2026年8月5日</time></p>
+              <h3>
+                <a href="article-points-rewards.html"
+                  >積分獎賞與電子禮券：如何設計有效的顧客回訪誘因？</a
+                >
+              </h3>
+              <p>
+                解析積分規則、限時券與任務獎勵如何配合會員系統，協助餐飲及零售提升回購與客單價。
+              </p>
+              <a class="article-card__more" href="article-points-rewards.html">閱讀全文</a>
+            </article>
+
+            <article class="article-card">
+              <p class="article-card__tag">行業應用</p>
+              <p class="article-card__date"><time datetime="2026-07-28">2026年7月28日</time></p>
+              <h3>
+                <a href="article-loyalty-for-fnb-retail.html"
+                  >餐飲與零售的 customer loyalty program：會員分級實務指南</a
+                >
+              </h3>
+              <p>
+                從金卡／銀卡會籍、積分獎賞到線上線下同步，說明如何建立可持續的顧客忠誠計劃。
+              </p>
+              <a class="article-card__more" href="article-loyalty-for-fnb-retail.html">閱讀全文</a>
+            </article>
+
+            <article class="article-card">
+              <p class="article-card__tag">美容專題</p>
+              <p class="article-card__date"><time datetime="2026-08-18">2026年8月18日</time></p>
+              <h3>
+                <a href="article-beauty-loyalty-points.html"
+                  >美容店的積分獎賞與會員系統：如何提升客戶回訪？</a
+                >
+              </h3>
+              <p>
+                說明沙龍與美容中心如何以積分獎賞、電子會員卡與會籍分級，建立可持續的熟客回訪計劃。
+              </p>
+              <a class="article-card__more" href="article-beauty-loyalty-points.html">閱讀全文</a>
+            </article>
+          </div>
+
+          <p class="articles__all">
+            <a href="blog.html">查看全部店家資訊 →</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="container">
+          <div class="faq__intro">
+            <p class="eyebrow">服務資訊 · FAQ</p>
+            <h2>店家常見問題</h2>
+            <p>
+              為餐飲、零售與美容店主整理的實用解答。將滑鼠移到問題上即可查看答案。
+            </p>
+          </div>
+
+          <div class="faq__list">
+            <div class="faq__item" tabindex="0">
+              <p class="faq__q">單店也可以使用嗎？需要專門 IT 人員嗎？</p>
+              <div class="faq__a">
+                <p>
+                  可以。Mobile.Cards 適合單店至連鎖使用，無需自行開發或配置複雜 IT
+                  系統。本地團隊會協助了解店舖需要，並建議合適方案。
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" tabindex="0">
+              <p class="faq__q">顧客一定要下載 App 才能成為會員嗎？</p>
+              <div class="faq__a">
+                <p>
+                  顧客可透過專屬品牌 App 或手機會員卡查閱積分、電子禮券與優惠。入會流程可按店舖營運方式設定，目標是讓顧客容易加入、店員容易操作。
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" tabindex="0">
+              <p class="faq__q">可以取代紙本印花卡或實體會員卡嗎？</p>
+              <div class="faq__a">
+                <p>
+                  可以。數碼會員卡可整合集點、電子禮券與會籍資料，減少遺失與人手蓋印，並方便追蹤推廣成效與會員活躍度。
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" tabindex="0">
+              <p class="faq__q">積分獎賞與電子禮券如何幫助店家？</p>
+              <div class="faq__a">
+                <p>
+                  店家可設定積分規則、限時券與任務獎勵，鼓勵回訪並提升客單價。系統亦可協助發送生日禮券，或喚醒較少到店的會員。
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" tabindex="0">
+              <p class="faq__q">餐飲、零售、美容哪個行業適合？</p>
+              <div class="faq__a">
+                <p>
+                  凡需要顧客回訪的行業均適用。餐飲適合集點與時令優惠；零售可同步線上線下積分；美容則可透過積分獎賞與
+                  VIP 分級培養高回頭客群。
+                </p>
+              </div>
+            </div>
+
+            <div class="faq__item" tabindex="0">
+              <p class="faq__q">想開始使用，下一步應該怎麼做？</p>
+              <div class="faq__a">
+                <p>
+                  可先前往
+                  <a href="contact.html">聯絡查詢</a>
+                  留下店舖資料與需求。我們會了解您的行業與規模，並建議合適的品牌 App、積分或會員分級方案。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="announce">
         <div class="container announce__inner">
-          <p class="announce__label">請勿靠近車門 · Please stand back from the train doors</p>
-          <h2 class="announce__title">預約 Demo</h2>
+          <p class="announce__label">終點站 · Ready to join</p>
+          <h2 class="announce__title">準備好留住更多熟客？</h2>
           <p class="announce__text">
-            立即開始您的數碼轉型。告訴我們您的想法，我們將盡快與您聯絡。
+            立即查詢，我們會了解您的店舖需要，並建議合適方案。超過 1500 個品牌已經起步。
           </p>
-          <a
-            class="btn btn--primary btn--large"
-            href="https://mobile.cards/#contact"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            聯絡我們
+          <a class="btn btn--primary btn--large" href="contact.html">
+            立即查詢 Mobile.Cards
           </a>
+          <p class="announce__note">歡迎查詢 · 本地團隊跟進</p>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container footer__inner">
-        <p>© 2026 Mobile.Cards</p>
-        <p>
-          <a href="tel:+85254850617">(852) 5485 0617</a>
-          ·
-          <a href="mailto:info@mobilecardspro.com">info@mobilecardspro.com</a>
-        </p>
-        <p class="footer__line">Island Line</p>
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a class="footer__logo" href="index.html">
+              <span class="roundel" aria-hidden="true"></span>
+              Mobile.Cards
+            </a>
+            <p class="footer__about">
+              專為餐飲、零售與美容店家而設的手機會員系統，協助提升回購與營運效率。
+            </p>
+          </div>
+          <div class="footer__col">
+            <h3>網站</h3>
+            <ul>
+              <li><a href="index.html">首頁</a></li>
+              <li><a href="#route">為什麼加入</a></li>
+              <li><a href="#shops">適用行業</a></li>
+              <li><a href="blog.html">店家資訊</a></li>
+              <li><a href="#faq">常見問題</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3>公司</h3>
+            <ul>
+              <li><a href="about.html">關於我們</a></li>
+              <li><a href="contact.html">聯絡查詢</a></li>
+              <li><a href="privacy.html">私隱政策</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3>開始使用</h3>
+            <ul>
+              <li><a href="contact.html">了解方案</a></li>
+              <li>
+                <a class="footer__cta-link" href="contact.html">立即查詢</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>© 2026 Mobile.Cards · 專為店家而設</p>
+          <p class="footer__line">Island Line</p>
+        </div>
       </div>
     </footer>
     <script>
