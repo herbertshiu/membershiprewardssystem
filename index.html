@@ -1,99 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>LoyaltyHK — Membership rewards for Hong Kong shops</title>
+    <title>Mobile.Cards | 香港餐飲零售會員獎賞系統</title>
     <meta
       name="description"
-      content="Membership rewards built for Hong Kong restaurants and retail. Turn walk-ins into regulars."
+      content="Mobile.Cards 為香港餐飲及零售店家提供數碼會員卡、會員系統與店家儲值系統。"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="logo" href="#">LoyaltyHK</a>
+    <header class="header">
+      <a class="header__logo" href="https://mobile.cards/">Mobile.Cards</a>
     </header>
 
     <main>
-      <section class="hero" aria-label="Introduction">
-        <div class="hero-media" aria-hidden="true">
+      <section class="hero">
+        <div class="hero__media" aria-hidden="true">
           <img
-            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=2000&q=80"
+            src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1400&q=80&auto=format&fit=crop"
             alt=""
-            width="2000"
-            height="1333"
+            width="1400"
+            height="933"
           />
         </div>
-        <div class="hero-content">
-          <p class="brand">LoyaltyHK</p>
-          <h1>Turn walk-ins into regulars</h1>
-          <p class="lede">
-            Membership rewards built for Hong Kong restaurants and retail shops.
+        <div class="container hero__inner">
+          <p class="hero__tag">香港餐飲 · 零售</p>
+          <h1 class="hero__title">會員獎賞計劃，從數碼會員卡開始</h1>
+          <p class="hero__subtitle">
+            Mobile.Cards 專為香港餐飲及零售品牌而設——讓顧客用手機集點、儲值、享優惠，助你提升回購與顧客忠誠度。
           </p>
-          <a class="btn btn-primary" href="#signup">Sign up</a>
+          <a
+            class="btn btn--primary"
+            href="https://mobile.cards/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            立即登記
+          </a>
         </div>
       </section>
 
-      <section class="benefits" aria-labelledby="benefits-heading">
-        <div class="benefits-inner">
-          <h2 id="benefits-heading">Why owners choose LoyaltyHK</h2>
-          <p class="benefits-intro">
-            Replace paper stamp cards with a simple rewards programme your staff
-            can run at the till — and your customers will actually use.
+      <section class="gallery" aria-label="適用店舖類型">
+        <div class="container">
+          <h2 class="gallery__title">無論哪類型店舖，我們都能協助你</h2>
+          <p class="gallery__lead">
+            由咖啡店、餐廳到零售店舖——Mobile.Cards 配合不同業務需要，助你建立會員獎賞計劃。
           </p>
-          <ul class="benefit-list">
-            <li>
-              <h3>Keep customers coming back</h3>
-              <p>
-                Points, stamps, or tiered perks that feel familiar to Hong Kong
-                diners and shoppers — without the lost cards.
-              </p>
+          <div class="gallery__grid">
+            <figure class="gallery__item">
+              <img
+                src="https://images.unsplash.com/photo-1774758959178-094de5122e29?w=600&q=80&auto=format&fit=crop"
+                alt="咖啡店"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
+              <figcaption>咖啡店</figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80&auto=format&fit=crop"
+                alt="溫暖餐廳用餐場景"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
+              <figcaption>餐廳</figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80&auto=format&fit=crop"
+                alt="溫馨零售店舖"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
+              <figcaption>零售</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="container">
+          <p class="benefits__eyebrow">為什麼選擇我們</p>
+          <h2 class="benefits__title">為你的店舖而設</h2>
+          <p class="benefits__intro">三個核心功能，助你輕鬆經營會員獎賞計劃。</p>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <span class="benefits__num" aria-hidden="true">01</span>
+              <div class="benefits__copy">
+                <h3>會員系統</h3>
+                <p>管理會員資料、集點、分級與優惠券，顧客加入後即可使用數碼會員卡。</p>
+              </div>
             </li>
-            <li>
-              <h3>See what drives repeat visits</h3>
-              <p>
-                Know who returns, how often they spend, and which offers bring
-                them through the door again.
-              </p>
+            <li class="benefits__item">
+              <span class="benefits__num" aria-hidden="true">02</span>
+              <div class="benefits__copy">
+                <h3>店家儲值系統</h3>
+                <p>支援預付儲值，鎖定未來消費、改善現金流，並可配合生日禮遇與推廣活動。</p>
+              </div>
             </li>
-            <li>
-              <h3>Launch in an afternoon</h3>
-              <p>
-                No IT team required. Set up your programme, share a QR code, and
-                start rewarding from day one.
-              </p>
+            <li class="benefits__item">
+              <span class="benefits__num" aria-hidden="true">03</span>
+              <div class="benefits__copy">
+                <h3>簡單易用</h3>
+                <p>無需複雜 IT 部署，咖啡店、餐廳、美容院、零售店均可快速上線。</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="cta" id="signup" aria-labelledby="cta-heading">
-        <div class="cta-inner">
-          <h2 id="cta-heading">Ready to reward your regulars?</h2>
-          <p>
-            Join restaurants and retailers across Hong Kong building loyalty
-            that lasts beyond a single visit.
-          </p>
-          <a class="btn btn-primary" href="mailto:hello@loyaltyhk.example?subject=LoyaltyHK%20sign-up">
-            Sign up
+      <section class="cta">
+        <div class="container cta__inner">
+          <h2 class="cta__title">準備好建立會員獎賞計劃？</h2>
+          <p class="cta__text">前往 Mobile.Cards 官方網站，立即提交登記查詢。</p>
+          <a
+            class="btn btn--primary btn--large"
+            href="https://mobile.cards/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            立即登記
           </a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <p>© <span id="year"></span> LoyaltyHK · Built for Hong Kong hospitality &amp; retail</p>
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Mobile.Cards · 服務香港餐飲及零售店家</p>
+      </div>
     </footer>
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
   </body>
 </html>
