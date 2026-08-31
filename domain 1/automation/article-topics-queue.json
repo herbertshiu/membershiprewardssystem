@@ -5,23 +5,10 @@
     "stored-value",
     "fnb-loyalty",
     "beauty-loyalty",
-    "measure-loyalty"
+    "measure-loyalty",
+    "birthday-rewards"
   ],
   "pending": [
-    {
-      "slug": "birthday-rewards",
-      "topic_en": "Birthday rewards and seasonal campaigns for membership programs",
-      "primary_keyword": "會員經營",
-      "secondary_keywords": [
-        "會員卡",
-        "會員制度",
-        "Customer loyalty program",
-        "customer retention strategies"
-      ],
-      "tag": "會員經營",
-      "vibe": "seasonal campaigns shop owners can run without heavy IT",
-      "read_minutes": "5"
-    },
     {
       "slug": "tiered-membership",
       "topic_en": "Tiered membership levels for cafes and retail",
