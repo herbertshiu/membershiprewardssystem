@@ -1528,56 +1528,96 @@ img {
   margin-bottom: 0;
 }
 
-.compare-wrap {
-  width: 100%;
-  overflow-x: auto;
+.pick-routes {
+  display: grid;
+  gap: 1rem;
   margin: 1.25rem 0 2rem;
-  -webkit-overflow-scrolling: touch;
 }
 
-.compare {
-  width: 100%;
-  min-width: 36rem;
-  border-collapse: collapse;
-  font-size: 0.92rem;
-}
-
-.compare th,
-.compare td {
-  padding: 0.7rem 0.85rem;
+.pick-route {
+  background: #fff;
   border: 1px solid var(--border);
-  text-align: left;
-  vertical-align: top;
+  border-left: 4px solid var(--island-blue);
+  padding: 1.15rem 1.2rem 1.25rem;
 }
 
-.compare thead th {
-  background: var(--pids);
-  color: #fff;
+.pick-route--focus {
+  border-left-color: var(--mtr-red);
+  background: linear-gradient(180deg, #fff8f8 0%, #fff 55%);
+}
+
+.pick-route__stop {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-en);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--island-blue);
+}
+
+.pick-route--focus .pick-route__stop {
+  color: var(--mtr-red);
+}
+
+.pick-route h3 {
+  margin: 0 0 0.55rem;
+  font-size: 1.08rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.pick-route p {
+  margin: 0 0 0.7rem;
+}
+
+.pick-route ul {
+  margin: 0 0 0.9rem;
+  padding-left: 1.15rem;
+}
+
+.pick-route li + li {
+  margin-top: 0.25rem;
+}
+
+.pick-route__link {
   font-weight: 700;
+  color: var(--island-blue);
+  text-decoration: none;
 }
 
-.compare thead a {
-  color: #fff;
+.pick-route--focus .pick-route__link {
+  color: var(--mtr-red);
+}
+
+.pick-route__link:hover {
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
 
-.compare tbody th {
-  background: #eef3f8;
-  font-weight: 600;
-  width: 8.5rem;
+.demo-check {
+  margin: 0.85rem 0 1.25rem;
+  padding-left: 1.25rem;
 }
 
-.compare tbody tr:nth-child(even) td {
-  background: rgba(0, 125, 197, 0.04);
+.demo-check li + li {
+  margin-top: 0.55rem;
 }
 
-.compare tbody td:nth-child(2) {
-  background: rgba(181, 30, 35, 0.05);
-}
+@media (min-width: 720px) {
+  .pick-routes {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+  }
 
-.compare thead th:nth-child(2) {
-  background: var(--mtr-red);
+  .pick-route {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pick-route__link {
+    margin-top: auto;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
