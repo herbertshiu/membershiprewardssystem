@@ -864,6 +864,58 @@ h2 {
   margin-top: 0.5rem;
 }
 
+.compare-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1.25rem 0 2rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.compare {
+  width: 100%;
+  min-width: 36rem;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.compare th,
+.compare td {
+  padding: 0.7rem 0.85rem;
+  border: 1px solid rgba(13, 61, 50, 0.12);
+  text-align: left;
+  vertical-align: top;
+}
+
+.compare thead th {
+  background: #0d3d32;
+  color: #fff;
+  font-weight: 700;
+}
+
+.compare thead a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.compare tbody th {
+  background: #f3f6f5;
+  font-weight: 600;
+  width: 8.5rem;
+}
+
+.compare tbody tr:nth-child(even) td {
+  background: rgba(13, 61, 50, 0.03);
+}
+
+.compare tbody td:nth-child(2) {
+  background: rgba(168, 48, 61, 0.04);
+}
+
+.compare thead th:nth-child(2) {
+  background: #8f2a36;
+}
+
 .footer {
   background: var(--surface);
   border-top: 1px solid var(--border);
