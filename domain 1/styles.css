@@ -806,7 +806,64 @@ h2 {
   color: rgba(255, 255, 255, 0.88);
 }
 
-/* Footer */
+.cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.cta .btn--ghost {
+  border-color: rgba(255, 255, 255, 0.55);
+  color: #fff;
+}
+
+.cta .btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Comparison chat article */
+.chat {
+  display: grid;
+  gap: 1rem;
+  margin: 1.75rem 0 2rem;
+}
+
+.chat__row {
+  max-width: 38rem;
+  padding: 0.95rem 1.1rem;
+  border-radius: 0.85rem;
+}
+
+.chat__row--q {
+  justify-self: start;
+  background: #f3f6f5;
+  border: 1px solid rgba(13, 61, 50, 0.08);
+}
+
+.chat__row--a {
+  justify-self: end;
+  background: #fff;
+  border: 1px solid rgba(13, 61, 50, 0.12);
+  box-shadow: 0 2px 10px rgba(13, 61, 50, 0.04);
+}
+
+.chat__label {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--muted, #6b7c76);
+}
+
+.chat__row p:last-child {
+  margin-bottom: 0;
+}
+
+.chat__row a.btn {
+  margin-top: 0.5rem;
+}
+
 .footer {
   background: var(--surface);
   border-top: 1px solid var(--border);
