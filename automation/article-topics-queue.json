@@ -1,0 +1,157 @@
+{
+  "site": {
+    "name": "店家會員指南",
+    "baseUrl": "https://www.membershiprewardssystem.hk",
+    "repoRoot": ".",
+    "deployBranch": "main"
+  },
+  "published": [
+    "article-membership-card-app",
+    "article-membership-system-app",
+    "article-membership-program",
+    "article-stored-value-online-order",
+    "article-app-making-tools",
+    "article-customer-retention",
+    "article-beauty-loyalty-points",
+    "article-digital-membership-card",
+    "article-points-rewards",
+    "article-loyalty-for-fnb-retail",
+    "article-birthday-member-rewards",
+    "article-choose-loyalty-tool"
+  ],
+  "pending": [
+    {
+      "slug": "article-restaurant-membership",
+      "eyebrow": "餐飲專題",
+      "title": "餐廳會員系統：如何提升回頭客與客單價",
+      "keywords": ["會員系統", "會員卡", "餐飲會員", "Customer loyalty program", "會員經營"],
+      "related": ["article-loyalty-for-fnb-retail.html", "article-points-rewards.html", "article-membership-system-app.html"]
+    },
+    {
+      "slug": "article-cafe-loyalty-program",
+      "eyebrow": "餐飲專題",
+      "title": "咖啡店會員計劃：積分與回訪的實務做法",
+      "keywords": ["會員卡", "積分獎賞", "會員制度", "customer retention strategies", "會員app"],
+      "related": ["article-restaurant-membership.html", "article-points-rewards.html", "article-membership-card-app.html"]
+    },
+    {
+      "slug": "article-electronic-coupon-design",
+      "eyebrow": "積分獎賞",
+      "title": "電子禮券設計：如何配合會員系統提升兌換率",
+      "keywords": ["電子禮券", "積分獎賞", "會員系統", "會員卡app", "Customer loyalty program"],
+      "related": ["article-points-rewards.html", "article-membership-program.html", "article-customer-retention.html"]
+    },
+    {
+      "slug": "article-wake-sleeping-members",
+      "eyebrow": "留客策略",
+      "title": "喚醒沉睡會員：customer retention strategies 實務指南",
+      "keywords": ["customer retention strategies", "會員經營", "會員系統", "Customer loyalty program", "會員"],
+      "related": ["article-customer-retention.html", "article-points-rewards.html", "article-membership-program.html"]
+    },
+    {
+      "slug": "article-multi-store-membership",
+      "eyebrow": "連鎖經營",
+      "title": "多門市會員管理：連鎖店如何統一會籍與積分",
+      "keywords": ["會員系統", "會員制度", "會員系統app", "會員經營", "會員卡"],
+      "related": ["article-membership-system-app.html", "article-loyalty-for-fnb-retail.html", "article-membership-program.html"]
+    },
+    {
+      "slug": "article-points-rule-design",
+      "eyebrow": "積分獎賞",
+      "title": "積分規則怎樣訂：避免顧客與店員混淆",
+      "keywords": ["積分獎賞", "會員制度", "會員系統", "會員卡", "Customer loyalty program"],
+      "related": ["article-points-rewards.html", "article-membership-program.html", "article-loyalty-for-fnb-retail.html"]
+    },
+    {
+      "slug": "article-member-data-privacy",
+      "eyebrow": "合規資訊",
+      "title": "會員資料與私隱：店家收集電話號碼前須知",
+      "keywords": ["會員", "會員系統", "會員經營", "會員制度", "私隱"],
+      "related": ["article-membership-program.html", "article-membership-system-app.html", "privacy.html"]
+    },
+    {
+      "slug": "article-pos-membership-integration",
+      "eyebrow": "系統整合",
+      "title": "會員系統與收銀串接：導入前應確認什麼",
+      "keywords": ["會員系統", "會員系統app", "會員卡app", "線上訂單系統", "會員經營"],
+      "related": ["article-membership-system-app.html", "article-stored-value-online-order.html", "article-app-making-tools.html"]
+    },
+    {
+      "slug": "article-retail-omnichannel-points",
+      "eyebrow": "零售專題",
+      "title": "零售店線上線下積分同步：會員制度實務",
+      "keywords": ["會員制度", "會員卡", "會員系統", "customer retention strategies", "零售會員"],
+      "related": ["article-loyalty-for-fnb-retail.html", "article-points-rewards.html", "article-membership-card-app.html"]
+    },
+    {
+      "slug": "article-salon-membership-tiers",
+      "eyebrow": "美容專題",
+      "title": "沙龍會員分級：銀卡與金卡如何設計",
+      "keywords": ["會員制度", "會員經營", "美容會員", "Customer loyalty program", "會員系統"],
+      "related": ["article-beauty-loyalty-points.html", "article-loyalty-for-fnb-retail.html", "article-membership-program.html"]
+    },
+    {
+      "slug": "article-member-onboarding-flow",
+      "eyebrow": "會員經營",
+      "title": "入會流程設計：如何降低顧客加入門檻",
+      "keywords": ["會員", "會員卡", "會員卡app", "會員app", "會員經營"],
+      "related": ["article-membership-card-app.html", "article-membership-system-app.html", "article-membership-program.html"]
+    },
+    {
+      "slug": "article-push-notification-members",
+      "eyebrow": "推廣溝通",
+      "title": "會員推播與訊息：頻率與內容如何拿捏",
+      "keywords": ["會員app", "會員經營", "customer retention strategies", "Customer loyalty program", "會員系統"],
+      "related": ["article-customer-retention.html", "article-membership-system-app.html", "article-birthday-member-rewards.html"]
+    },
+    {
+      "slug": "article-stamp-card-digital",
+      "eyebrow": "數碼轉型",
+      "title": "由印花卡到數碼會員卡：香港店家轉型步驟",
+      "keywords": ["會員卡", "數碼會員卡", "手機會員卡", "會員系統", "會員經營"],
+      "related": ["article-digital-membership-card.html", "article-membership-card-app.html", "article-points-rewards.html"]
+    },
+    {
+      "slug": "article-membership-roi-metrics",
+      "eyebrow": "成效評估",
+      "title": "會員計劃成效：店家應追蹤哪些數據",
+      "keywords": ["Customer loyalty program", "會員經營", "customer retention strategies", "會員系統", "會員"],
+      "related": ["article-customer-retention.html", "article-membership-program.html", "article-loyalty-for-fnb-retail.html"]
+    },
+    {
+      "slug": "article-prepaid-vs-points",
+      "eyebrow": "方案比較",
+      "title": "儲值、積分與禮券：哪種較適合你的店舖",
+      "keywords": ["店家儲值系統", "積分獎賞", "會員制度", "會員系統", "會員經營"],
+      "related": ["article-stored-value-online-order.html", "article-points-rewards.html", "article-membership-program.html"]
+    },
+    {
+      "slug": "article-hk-fnb-loyalty-trends",
+      "eyebrow": "行業觀察",
+      "title": "香港餐飲會員經營：常見做法與注意事項",
+      "keywords": ["會員經營", "餐飲會員", "Customer loyalty program", "會員卡", "會員系統app"],
+      "related": ["article-loyalty-for-fnb-retail.html", "article-restaurant-membership.html", "article-customer-retention.html"]
+    },
+    {
+      "slug": "article-staff-training-membership",
+      "eyebrow": "門市營運",
+      "title": "前線培訓：店員如何正確解釋會員規則",
+      "keywords": ["會員制度", "會員經營", "會員系統", "會員", "會員卡app"],
+      "related": ["article-membership-program.html", "article-points-rule-design.html", "article-membership-system-app.html"]
+    },
+    {
+      "slug": "article-referral-member-program",
+      "eyebrow": "會員經營",
+      "title": "推薦獎賞：如何透過會員帶來新客",
+      "keywords": ["Customer loyalty program", "customer retention strategies", "會員經營", "積分獎賞", "會員制度"],
+      "related": ["article-customer-retention.html", "article-points-rewards.html", "article-membership-program.html"]
+    },
+    {
+      "slug": "article-seasonal-campaign-loyalty",
+      "eyebrow": "推廣策略",
+      "title": "淡季與節日推廣：配合會員制度的時段策略",
+      "keywords": ["會員經營", "Customer loyalty program", "電子禮券", "customer retention strategies", "會員系統"],
+      "related": ["article-birthday-member-rewards.html", "article-points-rewards.html", "article-customer-retention.html"]
+    }
+  ]
+}
