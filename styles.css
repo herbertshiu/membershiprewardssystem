@@ -1009,15 +1009,15 @@ img {
 .post__cta {
   margin: 2rem 0;
   padding: 1.25rem 1.35rem;
-  background: var(--pids);
-  border: 1px solid #06110d;
+  background: #fff;
+  border: 1px solid var(--border);
   border-left: 6px solid var(--island-blue);
 }
 
 .post__cta p {
   margin: 0 0 0.85rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--ink);
 }
 
 .post__cta .btn--primary {
