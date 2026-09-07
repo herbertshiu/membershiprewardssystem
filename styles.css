@@ -1001,6 +1001,11 @@ img {
   color: var(--island-blue);
 }
 
+.post a.btn--primary,
+.post__cta .btn--primary {
+  color: #fff;
+}
+
 .post__cta {
   margin: 2rem 0;
   padding: 1.25rem 1.35rem;
