@@ -1,20 +1,6 @@
 {
   "pending": [
     {
-      "slug": "tiered-membership",
-      "topic_en": "Tiered membership levels for cafes and retail",
-      "primary_keyword": "會員制度",
-      "secondary_keywords": [
-        "會員卡",
-        "會員系統",
-        "會員",
-        "customer retention strategies"
-      ],
-      "tag": "會員制度",
-      "vibe": "when tiering helps vs when it adds confusion",
-      "read_minutes": "6"
-    },
-    {
       "slug": "pos-integration",
       "topic_en": "Connecting membership systems with checkout and online orders",
       "primary_keyword": "線上訂單系統",
@@ -102,6 +88,10 @@
     {
       "slug": "birthday-rewards",
       "generated_at": "2026-08-28T06:55:00.000Z"
+    },
+    {
+      "slug": "tiered-membership",
+      "generated_at": "2026-09-10T00:30:01.568Z"
     }
   ]
 }
