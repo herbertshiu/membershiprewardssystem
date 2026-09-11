@@ -1,0 +1,87 @@
+{
+  "pending": [
+    {
+      "slug": "staff-training-loyalty",
+      "topic_en": "Training front-line staff to promote membership without slowing checkout",
+      "primary_keyword": "會員卡",
+      "secondary_keywords": [
+        "會員app",
+        "會員卡 app",
+        "會員經營",
+        "Customer loyalty program"
+      ],
+      "tag": "會員卡",
+      "vibe": "rush-hour friendly scripts and counter signage",
+      "read_minutes": "5"
+    },
+    {
+      "slug": "app-vs-lightweight",
+      "topic_en": "When a shop needs a full app vs a lightweight membership flow",
+      "primary_keyword": "會員app",
+      "secondary_keywords": [
+        "會員卡app",
+        "app製作",
+        "手機app開發工具",
+        "會員系統app"
+      ],
+      "tag": "會員app",
+      "vibe": "decision guide for small HK businesses, not a developer tutorial",
+      "read_minutes": "6"
+    },
+    {
+      "slug": "reactivate-dormant-members",
+      "topic_en": "Re-engaging dormant members and measuring win-back campaigns",
+      "primary_keyword": "customer retention strategies",
+      "secondary_keywords": [
+        "會員經營",
+        "會員",
+        "Customer loyalty program",
+        "會員系統"
+      ],
+      "tag": "customer retention strategies",
+      "vibe": "metrics and simple campaigns for shops with existing member lists",
+      "read_minutes": "6"
+    },
+    {
+      "slug": "stored-value-rules",
+      "topic_en": "Legal and customer-trust considerations for stored-value programs",
+      "primary_keyword": "店家儲值系統",
+      "secondary_keywords": [
+        "會員制度",
+        "會員卡",
+        "會員經營"
+      ],
+      "tag": "店家儲值系統",
+      "vibe": "transparent terms, refunds, and expiry — trust-focused",
+      "read_minutes": "5"
+    },
+    {
+      "slug": "retail-loyalty-basics",
+      "topic_en": "Loyalty program basics for independent retail shops",
+      "primary_keyword": "Customer loyalty program",
+      "secondary_keywords": [
+        "會員卡",
+        "會員系統",
+        "customer retention strategies",
+        "會員"
+      ],
+      "tag": "Customer loyalty program",
+      "vibe": "first loyalty program for a single retail location",
+      "read_minutes": "5"
+    }
+  ],
+  "done": [
+    {
+      "slug": "birthday-rewards",
+      "generated_at": "2026-08-28T06:55:00.000Z"
+    },
+    {
+      "slug": "tiered-membership",
+      "generated_at": "2026-09-10T00:30:01.568Z"
+    },
+    {
+      "slug": "pos-integration",
+      "generated_at": "2026-09-11T00:30:01.927Z"
+    }
+  ]
+}
