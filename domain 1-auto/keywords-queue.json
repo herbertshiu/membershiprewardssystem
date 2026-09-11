@@ -1,20 +1,6 @@
 {
   "pending": [
     {
-      "slug": "pos-integration",
-      "topic_en": "Connecting membership systems with checkout and online orders",
-      "primary_keyword": "線上訂單系統",
-      "secondary_keywords": [
-        "會員系統",
-        "會員系統app",
-        "店家儲值系統",
-        "會員app"
-      ],
-      "tag": "線上訂單系統",
-      "vibe": "practical checklist before buying or switching tools",
-      "read_minutes": "6"
-    },
-    {
       "slug": "staff-training-loyalty",
       "topic_en": "Training front-line staff to promote membership without slowing checkout",
       "primary_keyword": "會員卡",
@@ -92,6 +78,10 @@
     {
       "slug": "tiered-membership",
       "generated_at": "2026-09-10T00:30:01.568Z"
+    },
+    {
+      "slug": "pos-integration",
+      "generated_at": "2026-09-11T00:30:01.927Z"
     }
   ]
 }
