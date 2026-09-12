@@ -1,20 +1,6 @@
 {
   "pending": [
     {
-      "slug": "staff-training-loyalty",
-      "topic_en": "Training front-line staff to promote membership without slowing checkout",
-      "primary_keyword": "會員卡",
-      "secondary_keywords": [
-        "會員app",
-        "會員卡 app",
-        "會員經營",
-        "Customer loyalty program"
-      ],
-      "tag": "會員卡",
-      "vibe": "rush-hour friendly scripts and counter signage",
-      "read_minutes": "5"
-    },
-    {
       "slug": "app-vs-lightweight",
       "topic_en": "When a shop needs a full app vs a lightweight membership flow",
       "primary_keyword": "會員app",
@@ -82,6 +68,10 @@
     {
       "slug": "pos-integration",
       "generated_at": "2026-09-11T00:30:01.927Z"
+    },
+    {
+      "slug": "staff-training-loyalty",
+      "generated_at": "2026-09-12T00:30:01.557Z"
     }
   ]
 }
