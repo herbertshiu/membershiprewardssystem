@@ -1,20 +1,6 @@
 {
   "pending": [
     {
-      "slug": "app-vs-lightweight",
-      "topic_en": "When a shop needs a full app vs a lightweight membership flow",
-      "primary_keyword": "會員app",
-      "secondary_keywords": [
-        "會員卡app",
-        "app製作",
-        "手機app開發工具",
-        "會員系統app"
-      ],
-      "tag": "會員app",
-      "vibe": "decision guide for small HK businesses, not a developer tutorial",
-      "read_minutes": "6"
-    },
-    {
       "slug": "reactivate-dormant-members",
       "topic_en": "Re-engaging dormant members and measuring win-back campaigns",
       "primary_keyword": "customer retention strategies",
@@ -72,6 +58,10 @@
     {
       "slug": "staff-training-loyalty",
       "generated_at": "2026-09-12T00:30:01.557Z"
+    },
+    {
+      "slug": "app-vs-lightweight",
+      "generated_at": "2026-09-13T00:38:17.643Z"
     }
   ]
 }
