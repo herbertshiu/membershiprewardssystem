@@ -1,20 +1,6 @@
 {
   "pending": [
     {
-      "slug": "reactivate-dormant-members",
-      "topic_en": "Re-engaging dormant members and measuring win-back campaigns",
-      "primary_keyword": "customer retention strategies",
-      "secondary_keywords": [
-        "會員經營",
-        "會員",
-        "Customer loyalty program",
-        "會員系統"
-      ],
-      "tag": "customer retention strategies",
-      "vibe": "metrics and simple campaigns for shops with existing member lists",
-      "read_minutes": "6"
-    },
-    {
       "slug": "stored-value-rules",
       "topic_en": "Legal and customer-trust considerations for stored-value programs",
       "primary_keyword": "店家儲值系統",
@@ -62,6 +48,10 @@
     {
       "slug": "app-vs-lightweight",
       "generated_at": "2026-09-13T00:38:17.643Z"
+    },
+    {
+      "slug": "reactivate-dormant-members",
+      "generated_at": "2026-09-14T00:30:02.091Z"
     }
   ]
 }
