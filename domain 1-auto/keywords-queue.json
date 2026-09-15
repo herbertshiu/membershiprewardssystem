@@ -1,0 +1,57 @@
+{
+  "pending": [
+    {
+      "slug": "stored-value-rules",
+      "topic_en": "Legal and customer-trust considerations for stored-value programs",
+      "primary_keyword": "店家儲值系統",
+      "secondary_keywords": [
+        "會員制度",
+        "會員卡",
+        "會員經營"
+      ],
+      "tag": "店家儲值系統",
+      "vibe": "transparent terms, refunds, and expiry — trust-focused",
+      "read_minutes": "5"
+    },
+    {
+      "slug": "retail-loyalty-basics",
+      "topic_en": "Loyalty program basics for independent retail shops",
+      "primary_keyword": "Customer loyalty program",
+      "secondary_keywords": [
+        "會員卡",
+        "會員系統",
+        "customer retention strategies",
+        "會員"
+      ],
+      "tag": "Customer loyalty program",
+      "vibe": "first loyalty program for a single retail location",
+      "read_minutes": "5"
+    }
+  ],
+  "done": [
+    {
+      "slug": "birthday-rewards",
+      "generated_at": "2026-08-28T06:55:00.000Z"
+    },
+    {
+      "slug": "tiered-membership",
+      "generated_at": "2026-09-10T00:30:01.568Z"
+    },
+    {
+      "slug": "pos-integration",
+      "generated_at": "2026-09-11T00:30:01.927Z"
+    },
+    {
+      "slug": "staff-training-loyalty",
+      "generated_at": "2026-09-12T00:30:01.557Z"
+    },
+    {
+      "slug": "app-vs-lightweight",
+      "generated_at": "2026-09-13T00:38:17.643Z"
+    },
+    {
+      "slug": "reactivate-dormant-members",
+      "generated_at": "2026-09-14T00:30:02.091Z"
+    }
+  ]
+}
