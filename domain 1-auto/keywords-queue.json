@@ -1,20 +1,5 @@
 {
-  "pending": [
-    {
-      "slug": "retail-loyalty-basics",
-      "topic_en": "Loyalty program basics for independent retail shops",
-      "primary_keyword": "Customer loyalty program",
-      "secondary_keywords": [
-        "會員卡",
-        "會員系統",
-        "customer retention strategies",
-        "會員"
-      ],
-      "tag": "Customer loyalty program",
-      "vibe": "first loyalty program for a single retail location",
-      "read_minutes": "5"
-    }
-  ],
+  "pending": [],
   "done": [
     {
       "slug": "birthday-rewards",
@@ -43,6 +28,10 @@
     {
       "slug": "stored-value-rules",
       "generated_at": "2026-09-15T00:30:00.839Z"
+    },
+    {
+      "slug": "retail-loyalty-basics",
+      "generated_at": "2026-09-16T00:35:29.311Z"
     }
   ]
 }
