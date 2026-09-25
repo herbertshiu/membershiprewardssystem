@@ -17,16 +17,10 @@
     "article-points-rewards",
     "article-loyalty-for-fnb-retail",
     "article-birthday-member-rewards",
-    "article-choose-loyalty-tool"
+    "article-choose-loyalty-tool",
+    "article-restaurant-membership"
   ],
   "pending": [
-    {
-      "slug": "article-restaurant-membership",
-      "eyebrow": "餐飲專題",
-      "title": "餐廳會員系統：如何提升回頭客與客單價",
-      "keywords": ["會員系統", "會員卡", "餐飲會員", "Customer loyalty program", "會員經營"],
-      "related": ["article-loyalty-for-fnb-retail.html", "article-points-rewards.html", "article-membership-system-app.html"]
-    },
     {
       "slug": "article-cafe-loyalty-program",
       "eyebrow": "餐飲專題",
