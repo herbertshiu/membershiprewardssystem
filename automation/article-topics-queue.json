@@ -18,16 +18,10 @@
     "article-loyalty-for-fnb-retail",
     "article-birthday-member-rewards",
     "article-choose-loyalty-tool",
-    "article-restaurant-membership"
+    "article-restaurant-membership",
+    "article-cafe-loyalty-program"
   ],
   "pending": [
-    {
-      "slug": "article-cafe-loyalty-program",
-      "eyebrow": "餐飲專題",
-      "title": "咖啡店會員計劃：積分與回訪的實務做法",
-      "keywords": ["會員卡", "積分獎賞", "會員制度", "customer retention strategies", "會員app"],
-      "related": ["article-restaurant-membership.html", "article-points-rewards.html", "article-membership-card-app.html"]
-    },
     {
       "slug": "article-electronic-coupon-design",
       "eyebrow": "積分獎賞",
