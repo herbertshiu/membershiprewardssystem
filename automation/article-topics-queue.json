@@ -19,16 +19,10 @@
     "article-birthday-member-rewards",
     "article-choose-loyalty-tool",
     "article-restaurant-membership",
-    "article-cafe-loyalty-program"
+    "article-cafe-loyalty-program",
+    "article-electronic-coupon-design"
   ],
   "pending": [
-    {
-      "slug": "article-electronic-coupon-design",
-      "eyebrow": "積分獎賞",
-      "title": "電子禮券設計：如何配合會員系統提升兌換率",
-      "keywords": ["電子禮券", "積分獎賞", "會員系統", "會員卡app", "Customer loyalty program"],
-      "related": ["article-points-rewards.html", "article-membership-program.html", "article-customer-retention.html"]
-    },
     {
       "slug": "article-wake-sleeping-members",
       "eyebrow": "留客策略",
