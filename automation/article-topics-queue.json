@@ -20,16 +20,10 @@
     "article-choose-loyalty-tool",
     "article-restaurant-membership",
     "article-cafe-loyalty-program",
-    "article-electronic-coupon-design"
+    "article-electronic-coupon-design",
+    "article-wake-sleeping-members"
   ],
   "pending": [
-    {
-      "slug": "article-wake-sleeping-members",
-      "eyebrow": "留客策略",
-      "title": "喚醒沉睡會員：customer retention strategies 實務指南",
-      "keywords": ["customer retention strategies", "會員經營", "會員系統", "Customer loyalty program", "會員"],
-      "related": ["article-customer-retention.html", "article-points-rewards.html", "article-membership-program.html"]
-    },
     {
       "slug": "article-multi-store-membership",
       "eyebrow": "連鎖經營",
