@@ -22,16 +22,10 @@
     "article-cafe-loyalty-program",
     "article-electronic-coupon-design",
     "article-wake-sleeping-members",
-    "article-multi-store-membership"
+    "article-multi-store-membership",
+    "article-points-rule-design"
   ],
   "pending": [
-    {
-      "slug": "article-points-rule-design",
-      "eyebrow": "積分獎賞",
-      "title": "積分規則怎樣訂：避免顧客與店員混淆",
-      "keywords": ["積分獎賞", "會員制度", "會員系統", "會員卡", "Customer loyalty program"],
-      "related": ["article-points-rewards.html", "article-membership-program.html", "article-loyalty-for-fnb-retail.html"]
-    },
     {
       "slug": "article-member-data-privacy",
       "eyebrow": "合規資訊",
