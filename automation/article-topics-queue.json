@@ -21,16 +21,10 @@
     "article-restaurant-membership",
     "article-cafe-loyalty-program",
     "article-electronic-coupon-design",
-    "article-wake-sleeping-members"
+    "article-wake-sleeping-members",
+    "article-multi-store-membership"
   ],
   "pending": [
-    {
-      "slug": "article-multi-store-membership",
-      "eyebrow": "連鎖經營",
-      "title": "多門市會員管理：連鎖店如何統一會籍與積分",
-      "keywords": ["會員系統", "會員制度", "會員系統app", "會員經營", "會員卡"],
-      "related": ["article-membership-system-app.html", "article-loyalty-for-fnb-retail.html", "article-membership-program.html"]
-    },
     {
       "slug": "article-points-rule-design",
       "eyebrow": "積分獎賞",
