@@ -23,16 +23,10 @@
     "article-electronic-coupon-design",
     "article-wake-sleeping-members",
     "article-multi-store-membership",
-    "article-points-rule-design"
+    "article-points-rule-design",
+    "article-member-data-privacy"
   ],
   "pending": [
-    {
-      "slug": "article-member-data-privacy",
-      "eyebrow": "合規資訊",
-      "title": "會員資料與私隱：店家收集電話號碼前須知",
-      "keywords": ["會員", "會員系統", "會員經營", "會員制度", "私隱"],
-      "related": ["article-membership-program.html", "article-membership-system-app.html", "privacy.html"]
-    },
     {
       "slug": "article-pos-membership-integration",
       "eyebrow": "系統整合",
