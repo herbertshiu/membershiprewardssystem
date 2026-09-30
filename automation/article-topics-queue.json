@@ -24,16 +24,10 @@
     "article-wake-sleeping-members",
     "article-multi-store-membership",
     "article-points-rule-design",
-    "article-member-data-privacy"
+    "article-member-data-privacy",
+    "article-pos-membership-integration"
   ],
   "pending": [
-    {
-      "slug": "article-pos-membership-integration",
-      "eyebrow": "系統整合",
-      "title": "會員系統與收銀串接：導入前應確認什麼",
-      "keywords": ["會員系統", "會員系統app", "會員卡app", "線上訂單系統", "會員經營"],
-      "related": ["article-membership-system-app.html", "article-stored-value-online-order.html", "article-app-making-tools.html"]
-    },
     {
       "slug": "article-retail-omnichannel-points",
       "eyebrow": "零售專題",
