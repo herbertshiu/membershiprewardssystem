@@ -25,16 +25,10 @@
     "article-multi-store-membership",
     "article-points-rule-design",
     "article-member-data-privacy",
-    "article-pos-membership-integration"
+    "article-pos-membership-integration",
+    "article-retail-omnichannel-points"
   ],
   "pending": [
-    {
-      "slug": "article-retail-omnichannel-points",
-      "eyebrow": "零售專題",
-      "title": "零售店線上線下積分同步：會員制度實務",
-      "keywords": ["會員制度", "會員卡", "會員系統", "customer retention strategies", "零售會員"],
-      "related": ["article-loyalty-for-fnb-retail.html", "article-points-rewards.html", "article-membership-card-app.html"]
-    },
     {
       "slug": "article-salon-membership-tiers",
       "eyebrow": "美容專題",
