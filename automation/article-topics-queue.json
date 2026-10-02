@@ -26,7 +26,8 @@
     "article-points-rule-design",
     "article-member-data-privacy",
     "article-pos-membership-integration",
-    "article-retail-omnichannel-points"
+    "article-retail-omnichannel-points",
+    "article-seasonal-campaign-loyalty"
   ],
   "pending": [
     {
@@ -91,13 +92,6 @@
       "title": "推薦獎賞：如何透過會員帶來新客",
       "keywords": ["Customer loyalty program", "customer retention strategies", "會員經營", "積分獎賞", "會員制度"],
       "related": ["article-customer-retention.html", "article-points-rewards.html", "article-membership-program.html"]
-    },
-    {
-      "slug": "article-seasonal-campaign-loyalty",
-      "eyebrow": "推廣策略",
-      "title": "淡季與節日推廣：配合會員制度的時段策略",
-      "keywords": ["會員經營", "Customer loyalty program", "電子禮券", "customer retention strategies", "會員系統"],
-      "related": ["article-birthday-member-rewards.html", "article-points-rewards.html", "article-customer-retention.html"]
     }
   ]
 }
