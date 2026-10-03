@@ -27,16 +27,10 @@
     "article-member-data-privacy",
     "article-pos-membership-integration",
     "article-retail-omnichannel-points",
-    "article-seasonal-campaign-loyalty"
+    "article-seasonal-campaign-loyalty",
+    "article-salon-membership-tiers"
   ],
   "pending": [
-    {
-      "slug": "article-salon-membership-tiers",
-      "eyebrow": "美容專題",
-      "title": "沙龍會員分級：銀卡與金卡如何設計",
-      "keywords": ["會員制度", "會員經營", "美容會員", "Customer loyalty program", "會員系統"],
-      "related": ["article-beauty-loyalty-points.html", "article-loyalty-for-fnb-retail.html", "article-membership-program.html"]
-    },
     {
       "slug": "article-member-onboarding-flow",
       "eyebrow": "會員經營",
