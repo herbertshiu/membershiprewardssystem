@@ -28,16 +28,10 @@
     "article-pos-membership-integration",
     "article-retail-omnichannel-points",
     "article-seasonal-campaign-loyalty",
-    "article-salon-membership-tiers"
+    "article-salon-membership-tiers",
+    "article-member-onboarding-flow"
   ],
   "pending": [
-    {
-      "slug": "article-member-onboarding-flow",
-      "eyebrow": "會員經營",
-      "title": "入會流程設計：如何降低顧客加入門檻",
-      "keywords": ["會員", "會員卡", "會員卡app", "會員app", "會員經營"],
-      "related": ["article-membership-card-app.html", "article-membership-system-app.html", "article-membership-program.html"]
-    },
     {
       "slug": "article-push-notification-members",
       "eyebrow": "推廣溝通",
