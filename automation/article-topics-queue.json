@@ -29,16 +29,10 @@
     "article-retail-omnichannel-points",
     "article-seasonal-campaign-loyalty",
     "article-salon-membership-tiers",
-    "article-member-onboarding-flow"
+    "article-member-onboarding-flow",
+    "article-push-notification-members"
   ],
   "pending": [
-    {
-      "slug": "article-push-notification-members",
-      "eyebrow": "推廣溝通",
-      "title": "會員推播與訊息：頻率與內容如何拿捏",
-      "keywords": ["會員app", "會員經營", "customer retention strategies", "Customer loyalty program", "會員系統"],
-      "related": ["article-customer-retention.html", "article-membership-system-app.html", "article-birthday-member-rewards.html"]
-    },
     {
       "slug": "article-stamp-card-digital",
       "eyebrow": "數碼轉型",
