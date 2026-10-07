@@ -30,16 +30,10 @@
     "article-seasonal-campaign-loyalty",
     "article-salon-membership-tiers",
     "article-member-onboarding-flow",
-    "article-push-notification-members"
+    "article-push-notification-members",
+    "article-stamp-card-digital"
   ],
   "pending": [
-    {
-      "slug": "article-stamp-card-digital",
-      "eyebrow": "數碼轉型",
-      "title": "由印花卡到數碼會員卡：香港店家轉型步驟",
-      "keywords": ["會員卡", "數碼會員卡", "手機會員卡", "會員系統", "會員經營"],
-      "related": ["article-digital-membership-card.html", "article-membership-card-app.html", "article-points-rewards.html"]
-    },
     {
       "slug": "article-membership-roi-metrics",
       "eyebrow": "成效評估",
